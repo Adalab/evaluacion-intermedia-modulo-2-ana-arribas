@@ -1,12 +1,7 @@
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 .button {
-    width: 100px;
-    background-color: aqua;
-    border:none;
-    border-radius: 10px;
-    height: 30px;
+border: none;
+background-color: aquamarine;
+padding: 10px;
+border-radius: 4px;
+
 }

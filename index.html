@@ -5,31 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Evaluacion intemedia</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
-
 </head>
 
 <body>
-
     <h1>Adivina el número</h1>
-
-    <div class="container">
-        <label for=""> Introduce aquí tu número:
-            <input id="input-number" type="number">
+    <form action="" method="POST">
+        <label for="input">Introduce aquí tu número
+            <input id="input" type="number">
         </label>
-
-        <button class="button" id="button">Prueba</button>
-    </div>
-
-    <div class="container-clue">
-        <p id="clue"> Pista: escribe un número y dale a prueba</p>
-    </div>
-
-    <div class="container-tries">
-        <p id="tries">Número de intentos: 0</p>
-    </div>
-
+        <button type="button" class="button" id="button">Probar</button>
+    </form>
+    <p id="clue">Pista: Escribe el número y dale a prueba</p>
+    <p>Número de intentos: <span id="tries">0</span> </p>
     <script src="./js/main.js"></script>
 </body>
 
